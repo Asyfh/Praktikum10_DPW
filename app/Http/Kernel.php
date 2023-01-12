@@ -63,5 +63,7 @@ class Kernel extends HttpKernel
         'signed' => \App\Http\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+        // untuk mendaftar file checkout yang ada di folder middleware untuk bisa di akses pada web.php
+        'role' => \App\Http\Middleware\CheckRole::class, 
     ];
 }

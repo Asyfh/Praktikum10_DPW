@@ -24,8 +24,7 @@
     <nav class="navbar navbar-expand-lg bg-white">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="https://1000logos.net/wp-content/uploads/2021/11/Nike-Logo.png" alt="Bootstrap"
-                    width="80">
+                 
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
